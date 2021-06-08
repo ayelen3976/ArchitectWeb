@@ -1,0 +1,16 @@
+.NavHome {
+  .Nave {
+    padding: 10px 30px;
+    .texts {
+      font-size: 19px;
+    }
+  }
+  img {
+    width: 8%;
+    height: 8vh;
+    @media (max-width: 668px) {
+        width: 12%;
+    height: 5vh; 
+    }
+  }
+}
