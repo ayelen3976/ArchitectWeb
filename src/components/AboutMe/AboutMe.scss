@@ -1,0 +1,67 @@
+@import "../Variables/variables.scss";
+.about_me {
+  .row_about {
+    @media only screen and (max-width: 600px) {
+      margin: 3em 1em 1em 1em;
+    }
+    margin: 6em;
+    background-color: $color3;
+    padding: 1%;
+
+    .about_col_left {
+      @media only screen and (max-width: 600px) {
+        text-align: center;
+      }
+      padding: 5%;
+      //   background-color: $color4;
+      img {
+        @media only screen and (max-width: 600px) {
+          margin-left: 0%;
+          height: 200px;
+          position: inherit;
+        }
+        margin-left: 6%;
+        position: absolute;
+
+        height: 600px;
+      }
+    }
+    .about_col_right {
+      padding: 5%;
+      // background-color: $color5;
+      p {
+        color: rgba(43, 42, 42, 0.767);
+      }
+      .txt_1 {
+        letter-spacing: 3px;
+        font-weight: 700;
+        img {
+          width: 10%;
+        }
+      }
+      .txt_2 {
+        font-size: 55px;
+        font-weight: 400;
+      }
+      .short_description {
+        padding-right: 5%;
+      }
+
+      .options {
+        img {
+          width: 9%;
+        }
+        span {
+          margin-left: 10px;
+        }
+      }
+      button {
+        margin-top: 4%;
+        color: black;
+        width: 10em;
+        border: 1px solid $color2;
+        background-color: $color2;
+      }
+    }
+  }
+}

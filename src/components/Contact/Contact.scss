@@ -1,0 +1,81 @@
+.contact-detail {
+  background-color: rgba(0, 0, 0, 0.315) !important;
+
+  padding: 2em;
+  @media only screen and (max-width: 600px) {
+    padding: 0.4em;
+  }
+  .contact-container {
+    @media only screen and (max-width: 600px) {
+      margin-left: 0em;
+    }
+    margin-left: 10em;
+    text-align: -webkit-center;
+
+    .first-div {
+      @media only screen and (max-width: 600px) {
+        position: inherit;
+        width: 95%;
+        margin-top: 0em;
+      }
+      margin-top: 3em;
+      width: 60vh;
+      position: absolute;
+      .first-div-row {
+        div {
+          @media only screen and (max-width: 600px) {
+            margin: 2%;
+          }
+          margin: 2%;
+          background-color: white;
+          // border: 1px solid green;
+        }
+      }
+      .second-div-row {
+        div {
+          @media only screen and (max-width: 600px) {
+            margin: 2%;
+          }
+          margin: 2%;
+          background-color: white;
+          // border: 1px solid green;
+        }
+      }
+    }
+    .second-div {
+      @media only screen and (max-width: 600px) {
+        width: 100%;
+      }
+      width: 70%;
+      .square {
+        @media only screen and (max-width: 600px) {
+          padding: 2em;
+          margin-left: 0em;
+        }
+        margin-left: 12em;
+        padding: 4em;
+        background-color: skyblue;
+
+        .square-input {
+          display: grid;
+          justify-items: center;
+          p {
+            font-size: 30px;
+          }
+          input {
+            margin: 1em;
+            width: 80%;
+          }
+          textarea {
+            margin: 1em;
+            width: 80%;
+            height: 15vh;
+          }
+          button {
+            width: 20%;
+          }
+        }
+      }
+    }
+  }
+}

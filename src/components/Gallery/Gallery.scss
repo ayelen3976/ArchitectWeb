@@ -1,0 +1,43 @@
+@import "../Variables/variables.scss";
+.gallery{
+//  background-color: black;
+// background-color:$color1;
+background-color:black;
+  text-align:center;
+
+    .grid_gallery{
+        padding:4% 0% 4% 0%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+
+        @media (max-width: 500px) {
+            grid-template-columns: repeat(1, 1fr);
+          }
+          .div_image{
+              margin : 2%;
+            
+            img{
+                -webkit-filter: grayscale(100%);
+                filter: grayscale(70%);
+                -webkit-transition: .3s ease-in-out;
+                transition: .3s ease-in-out;
+                width:100%;
+                @media (max-width: 500px) {
+                    -webkit-filter: grayscale(0%);
+                    filter: grayscale(0%);
+                  }
+              
+            }
+            img:hover{
+                -webkit-filter: grayscale(0);
+                filter: grayscale(0);
+              
+              }
+              
+          }
+      
+
+      
+    }
+}
