@@ -11,7 +11,7 @@ import {
 function AppRouter(){
     return (
 <Router>
-    <NavHome/>
+     <NavHome/>
     <Switch>
     <Route exact path="/" component={Home} />
     <Route exact path="/profile" component={Profile} />

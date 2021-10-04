@@ -16,13 +16,13 @@ function ContactDetail() {
           <Row className="first-div-row">
             <Col >
               <div>
-                <AiOutlineWhatsApp />
+                <AiOutlineWhatsApp className="icon-c"/>
                 <p> Whatsapp</p>
               </div>
             </Col>
             <Col >
               <div>
-                <AiOutlineInstagram />
+                <AiOutlineInstagram className="icon-c"/>
                 <p>Instagram</p>{" "}
               </div>
             </Col>
@@ -31,14 +31,14 @@ function ContactDetail() {
             <Col >
               <div>
                 {" "}
-                <AiOutlineMail />
+                <AiOutlineMail className="icon-c"/>
                 <p>email</p>{" "}
               </div>
             </Col>
             <Col>
               <div>
                 {" "}
-                <AiFillLinkedin />
+                <AiFillLinkedin className="icon-c"/>
                 <p>Linkedin</p>{" "}
               </div>
             </Col>
@@ -49,8 +49,8 @@ function ContactDetail() {
           <div className="square">
             <div className="square-input">
               <p>CONTACT US</p>
-              <input />
-              <input />
+              <input placeholder="Enter your name" />
+              <input placeholder="Enter a valid email address"/>
               <textarea />
               <button>SUBMIT</button>
             </div>

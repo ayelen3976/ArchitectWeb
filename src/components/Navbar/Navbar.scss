@@ -3,11 +3,12 @@
 
   .Nave {
     //  background-color: rgba(0, 0, 0, 0.822);
-    background-color: $color12;
+    background-color: $color4;
     // background-color: $color1;
     padding: 10px 30px;
     .texts {
       font-size: 19px;
+      
     }
     .dropdown-menu {
       min-width: 3em;
@@ -22,4 +23,14 @@
     height: 5vh; 
     }
   }
+
+  .navbar-dark .navbar-nav .nav-link {
+    color:$color2;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color:$color5;
+}
+
+
+
 }
