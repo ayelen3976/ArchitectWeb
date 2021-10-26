@@ -2,7 +2,7 @@
 .about_me {
   .row_about {
     @media only screen and (max-width: 600px) {
-      margin: 3em 1em 1em 1em;
+      margin: 2em 1em 1em 1em;
     }
     margin: 6em;
     background-color: $color3;
@@ -11,6 +11,7 @@
     .about_col_left {
       @media only screen and (max-width: 600px) {
         text-align: center;
+        padding: 2%;
       }
       padding: 5%;
       //   background-color: $color4;
@@ -27,6 +28,9 @@
       }
     }
     .about_col_right {
+      @media only screen and (max-width: 600px) {
+        padding: 3%;
+      }
       padding: 5%;
       // background-color: $color5;
       p {
@@ -42,9 +46,15 @@
       .txt_2 {
         font-size: 55px;
         font-weight: 400;
+        @media only screen and (max-width: 600px) {
+          font-size: 35px;
+        }
       }
       .short_description {
         padding-right: 5%;
+        @media only screen and (max-width: 600px) {
+          font-size: 15px;
+        }
       }
 
       .options {

@@ -8,6 +8,7 @@ import {
   import Profile from './components/Profile/Profile'
   import NavHome from './components/Navbar/Navbar'
   import Asesorias from './components/Asesorias/Asesorias'
+  import Footer from './components/Footer/Footer'
 function AppRouter(){
     return (
 <Router>
@@ -17,6 +18,7 @@ function AppRouter(){
     <Route exact path="/profile" component={Profile} />
     <Route exact path="/asesoria" component={Asesorias} />
     </Switch>
+    <Footer/>
 </Router>
     )
 }

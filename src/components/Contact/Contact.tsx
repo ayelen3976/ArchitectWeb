@@ -17,7 +17,7 @@ function ContactDetail() {
             <Col >
               <div>
                 <AiOutlineWhatsApp className="icon-c"/>
-                <p> Whatsapp</p>
+                <p> WhatsApp</p>
               </div>
             </Col>
             <Col >
@@ -48,10 +48,10 @@ function ContactDetail() {
         <div className="second-div">
           <div className="square">
             <div className="square-input">
-              <p>CONTACT US</p>
+              <p>CONTACTO</p>
               <input placeholder="Enter your name" />
               <input placeholder="Enter a valid email address"/>
-              <textarea />
+              <textarea placeholder="Message" />
               <button>SUBMIT</button>
             </div>
           </div>

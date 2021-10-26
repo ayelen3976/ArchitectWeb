@@ -1,0 +1,101 @@
+@import "../Variables/variables.scss";
+.asesorias {
+  .container-asesorias {
+    .div-phases {
+      @media only screen and (max-width: 600px) {
+        height: 65vh;
+      }
+      // width: 910px;
+      text-align: -webkit-center;
+      height: 90vh;
+      background-color: $color2;
+    }
+    .img-phase {
+      @media only screen and (max-width: 600px) {
+        height: 18vh;
+      }
+      width: 100%;
+      height: 30vh;
+      background: $color7;
+      position: absolute;
+      .div-boxes {
+        @media only screen and (max-width: 600px) {
+          width: 96%;
+          margin-top: 0em;
+        }
+        width: 60%;
+        margin-top: 1em;
+        height: 20vh;
+        //   background-color: green;
+        .col-box {
+          margin-top: 10%;
+          height: 20vh;
+          // background-color: rgb(222, 226, 222);
+          div {
+            padding: 5%;
+            width: 100%;
+            height: 20vh;
+            background-color: $color2;
+            //   margin: 1%;
+            img {
+              @media only screen and (max-width: 600px) {
+                width: 40%;
+              }
+            }
+            .p1 {
+              @media only screen and (max-width: 600px) {
+                font-size: 13px;
+                margin-top: 0%;
+                line-height: 10px;
+              }
+              margin-top: 3%;
+              font-weight: 500;
+              font-size: 18px;
+              line-height: 16px;
+              text-align: center !important;
+              color: #000000;
+            }
+            p {
+              @media only screen and (max-width: 600px) {
+                font-size: 10px;
+                padding-left: 4%;
+              }
+              text-align: left;
+
+              font-style: normal;
+              font-weight: 500;
+              font-size: 14px;
+
+              color: #000000;
+            }
+          }
+        }
+      }
+      .img-phase-img {
+        // position: absolute;
+        @media only screen and (max-width: 600px) {
+          height: 40vh;
+          width: 98%;
+        }
+        width: 80%;
+        height: 60vh;
+      }
+    }
+    .text-under-img {
+      @media only screen and (max-width: 600px) {
+        margin-bottom: 2em;
+      }
+      margin-bottom: 3em;
+      text-align: -webkit-center;
+      p {
+        @media only screen and (max-width: 600px) {
+          width: 90%;
+          font-size: 12px;
+          text-align: center;
+        }
+        text-align: left;
+        width: 50%;
+      }
+    }
+  }
+}

@@ -8,7 +8,7 @@ import Gallery from "../Gallery/Gallery";
 import Modalimg from "../Modalimg/Modalimg";
 import Clients from "../Clients/Clients";
 import ContactDetail from "../Contact/Contact";
-import Footer from '../Footer/Footer';
+// import Footer from '../Footer/Footer';
 import "./Home.scss";
 function Home() {
   const [modal, setModal] = useState(null);
@@ -51,7 +51,7 @@ function Home() {
       </Slider>
 
       <AboutMe />
-      <div className="home_gallery">
+      <div className="home_gallery" id='gallery'>
         <p>PROYECTOS REALIZADOS</p>
       </div>
 
@@ -63,7 +63,7 @@ function Home() {
       <Clients />
 
       <ContactDetail/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }

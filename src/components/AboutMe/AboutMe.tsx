@@ -8,7 +8,7 @@ import {Link} from 'react-router-dom'
 import "./AboutMe.scss";
 function AboutMe() {
   return (
-    <div className="about_me">
+    <div className="about_me" id='about'>
       <Row className="row_about">
         <Col>
           <div className="about_col_left">

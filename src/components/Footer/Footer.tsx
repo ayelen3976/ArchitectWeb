@@ -13,8 +13,8 @@ function Footer() {
           style={{ color: "#ffffff8a" }}
         >
           created by Ayelen Fernandez ||
-          <a  style={{marginLeft:"5px"}} className="text-light" href="https://mdbootstrap.com/">
-            MDBootstrap.com
+          <a  style={{marginLeft:"5px"}} className="text-light" href="https://www.instagram.com/weebkiit/">
+           Webkit
           </a>
         </div>
       </MDBFooter>

@@ -1,13 +1,13 @@
 @import "../Variables/variables.scss";
-.clients{
-  margin-top:3em;
-  padding:4em;
+.clients {
+  margin-top: 3em;
+  padding: 4em;
   background: $color6;
-    @media only screen and (max-width: 600px) {
-   margin: 1em;
-   text-align: -webkit-center;
-        display: block;
-      }
-    display: flex;
-    justify-content: center;
+  @media only screen and (max-width: 600px) {
+    margin: 1em;
+    padding: 3em;
+  }
+  text-align: -webkit-center;
+  display: block;
+  justify-content: center;
 }

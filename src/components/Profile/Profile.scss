@@ -1,0 +1,161 @@
+@import "../Variables/variables.scss";
+.profile {
+  margin-top: 4em;
+  text-align: -webkit-center;
+  .title-profile {
+    .title1 {
+      font-family: Times New Roman;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 41px;
+      letter-spacing: 0.15em;
+    }
+    .title2 {
+      font-family: Times New Roman;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 21px;
+      /* identical to box height */
+
+      letter-spacing: 0.15em;
+    }
+  }
+  .line-div {
+    @media only screen and (max-width: 600px) {
+      width: 93%;
+    }
+    width: 80%;
+    //   height:2vh;
+    border-top: 1px solid black;
+    margin-bottom: 2%;
+  }
+  .text-left {
+    @media only screen and (max-width: 600px) {
+      margin-top: 0em;
+      width: 90%;
+    }
+    margin-top: 4em;
+    width: 80%;
+    .body-text-left {
+      margin-top: 10%;
+      @media only screen and (max-width: 600px) {
+        margin-top: 1%;
+      }
+      .body-text-left-p {
+        @media only screen and (max-width: 600px) {
+          font-size: 12px;
+          font-weight: 500;
+          line-height:2;
+        }
+        font-size: 19px;
+        font-weight: 500;
+      }
+      .body-text-left-des{
+        @media only screen and (max-width: 600px) {
+          font-size: 14px;
+          font-weight: 500;
+        }
+      }
+      @media only screen and (max-width: 600px) {
+        padding: 1%;
+        margin-top: 1%;
+      }
+      padding: 3%;
+    }
+    h2 {
+      @media only screen and (max-width: 600px) {
+        font-size: 15px;
+      }
+      font-size: 20px;
+
+      text-align: center;
+      border-bottom: 1px solid #000;
+      line-height: 0.1em;
+      margin: 10px 0 20px;
+    }
+
+    h2 span {
+      background: #fff;
+      padding: 0 5px;
+    }
+  }
+  .col-right {
+    border-left: 1px solid #000;
+    .profile-right{
+      .p-profile{
+        @media only screen and (max-width: 600px) {
+          font-size: 15px;
+          font-weight: 500;
+         }
+      }
+      .p-description{
+        @media only screen and (max-width: 600px) {
+          font-size: 13px;
+ 
+         }
+      }
+   
+    }
+    .div-experience {
+      margin-top: 10%;
+      border-top: 1px solid #000;
+      .title {
+        @media only screen and (max-width: 600px) {
+         font-size: 15px;
+         font-weight: 500;
+        }
+        margin-top: 10%;
+      }
+      .body-experience {
+        padding: 5%;
+        text-align: left;
+        @media only screen and (max-width: 600px) {
+          padding: 1%;
+      .p-name{
+        font-size:13px;
+        font-weight: 500;
+      }
+      .p-year{
+        font-size:12px;
+        font-weight: 700;
+        line-height:1;
+      }
+      .p-descrip{
+        font-size:12px;
+      }
+         } 
+      }
+    }
+  }
+  .btn-download {
+    text-align-last: right;
+    margin: 5%;
+    padding-right: 2em;
+    @media only screen and (max-width: 600px) {
+   
+      padding-right: 0em;
+     }
+    button {
+      @media only screen and (max-width: 600px) {
+        font-size: 13px;
+        font-weight: 600;
+        width: 7em;
+        height: 6vh;
+       }
+      padding-right: 1.5em;
+      // padding: 2%;
+      font-size: 18px;
+      font-weight: 500;
+      width: 9em;
+      height: 6vh;
+      border: transparent;
+      color: black;
+      background-color: $color3;
+    }
+    button:hover {
+      background-color: rgb(255, 255, 50);
+    }
+  }
+}
